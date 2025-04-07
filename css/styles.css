@@ -15,6 +15,7 @@ a{
 img{
     max-width: 100%;
 }
+
 header{
     display:flex;
     flex-flow: row wrap;
@@ -149,5 +150,11 @@ footer{
     
     .card2{
         grid-column:3/4;
+    }
+}
+
+@media(max-width:700px){
+    header{
+        justify-content: center;
     }
 }
